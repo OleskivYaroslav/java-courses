@@ -21,7 +21,7 @@ public class Calculate{
 			case ("^"):
 				sum = Math.pow(first, second);
 				break;
-			default: System.out.println("Посчитать не удалось");
+			default: System.out.println("Some ERROR");
 		}
 		System.out.println("Sum = "+sum);
 	}
