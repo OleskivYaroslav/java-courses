@@ -18,9 +18,10 @@ public class Calculate{
 			case ("/"):
 				sum = (Double)first / second;
 				break;
-			case ("^"):
+			case ("^"): {
 				sum = Math.pow(first, second);
 				break;
+			}
 			default: System.out.println("Some ERROR");
 		}
 		System.out.println("Sum = "+sum);
