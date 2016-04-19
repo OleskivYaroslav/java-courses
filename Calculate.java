@@ -1,3 +1,11 @@
+/*
+* Клас реалізує калькулятор для
+* додавання, віднімання, ділення,
+* множення та піднесення до степені параметрів,
+* в консолі використовуючи
+* передаваний масив стрічок arg
+* */
+
 public class Calculate{
 
 	public static void main(String[] arg){
@@ -18,10 +26,9 @@ public class Calculate{
 			case ("/"):
 				sum = (Double)first / second;
 				break;
-			case ("^"): {
+			case ("^"):
 				sum = Math.pow(first, second);
 				break;
-			}
 			default: System.out.println("Some ERROR");
 		}
 		System.out.println("Sum = "+sum);
